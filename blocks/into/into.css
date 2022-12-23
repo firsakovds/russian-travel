@@ -1,0 +1,25 @@
+.into {
+  margin: 0;  
+  max-width: 690px;  
+  margin-top: 92px;
+  margin-left: 148px;
+}
+@media (max-width: 1024px) {
+  .into {
+    margin-left: 48px;
+  }
+}
+@media (max-width: 768px) {
+  .into {
+    margin: 88px 24px 0;
+    margin-top: 88px;
+    max-width: 720px;
+  }
+}
+@media (max-width: 320px) {
+  .into {
+    margin: 0 auto;
+    max-width: 288px;  
+    margin-top: 64px;    
+  }
+}

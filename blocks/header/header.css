@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #2A2C2F;
+  max-width: 1184px;  
+  padding-top: 28px;
+  justify-content: space-between;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+@media (max-width: 320px) {
+  .header {    
+    max-width: 288px;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-top: 16px;   
+  }
+}
