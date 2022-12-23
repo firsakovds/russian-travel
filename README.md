@@ -7,5 +7,5 @@
 * Верстка сделана по [макету из figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 * Картинки "легкие" .png формата
 
-
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=firsakovds)](https://git.io/streak-stats)
 
