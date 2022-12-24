@@ -1,5 +1,4 @@
-.lead__title {
-  font-family: "Inter bold";
+.lead__title {  
   display: flex;
   margin: 0 auto;
   margin-top: 56px;
@@ -10,12 +9,18 @@
   line-height: 100px;
   text-align: center;
   justify-content: center;
-  color: #FFFFFF;
+  color: #FFFFFF;  
 }
 @media (max-width: 1024px) {
   .lead__title {
     margin-top: 48px;
   }
+}
+@media (max-width: 768px) {
+  .lead__title {
+    font-size: calc(40px + (96 - 40) * ((100vw - 320px) / (768 - 320)));
+    line-height: 104%;
+  }  
 }
 @media (max-width: 320px) {
   .lead__title {

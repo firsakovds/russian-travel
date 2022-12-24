@@ -1,27 +1,16 @@
 .place__image {
-  display: flex;
-  margin: 0;  
-  order: 2;
-  padding-top: 48px;
+  grid-area: image;
+  width: 100%;
+  object-fit: contain;
+  max-width: 460px;
 }
 @media (max-width: 1024px) {
   .place__image {
-    display: flex;
-    max-width: 440px;
-    max-height: 440px;  
+    max-width: 440px;    
   }
 }
 @media (max-width: 768px) {
   .place__image {
-    display: flex;
     max-width: 340px;
-    max-height: 340px;    
-  }
-}
-@media (max-width: 320px) {
-  .place__image {
-    padding-top: 32px;
-    width: 320px;
-    height: 320px;
   }
 }

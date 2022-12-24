@@ -1,32 +1,31 @@
-.place__title {
-  display: flex;
-  margin: 0;
-  width: 460px;  
-  font-family: 'Inter bold';
+.place__title {  
+  grid-area: title;  
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;  
+  line-height: 106%;  
   color: #FFFFFF;
-  order: 0;
+  margin: 0;
+  max-width: 460px;
 }
 @media (max-width: 1024px) {
   .place__title {
-    max-width: 440px;   
+    font-size: 72px;
+    font-size: calc(42px + (72 - 42) * ((100vw - 768px) / (1024 - 768)));
   }
 }
 @media (max-width: 768px) {
-  .place__title {
+  .place__title {    
     font-size: 42px;
-    line-height: 110%;
-    max-width: 340px;   
+    font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));
+    line-height: 110%;      
   }
 }
 @media (max-width: 320px) {
   .place__title {
-    margin: 0 auto;
-    max-width: 288px;
     font-size: 32px;
-    line-height: 35px;
+    line-height: 109%;
+    margin-left: 16px;
+    margin-right: 16px;    
   }
 }

@@ -1,27 +1,14 @@
 .place__paragraphs {  
-  display: flex;
-  flex-direction: column;
-  max-width: 484px;
-  order: 2;
-  padding-left: 40px;
-  padding-top: 48px;
-}
-@media (max-width: 1024px) {
-  .place__paragraphs {
-    max-width: 456px;
-    padding-left: 32px;     
-  }
+  grid-area: paragraphs;  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #FFFFFF; 
 }
 @media (max-width: 768px) {
   .place__paragraphs {
-    max-width: 352px;
-    padding-left: 28px;     
-  }
-}
-@media (max-width: 320px) {
-  .place__paragraphs {  
-    padding: 0;
-    max-width: 288px;
-    margin: 32px 16px 0;
+    font-size: 16px;
+    line-height: 163%;        
   }
 }

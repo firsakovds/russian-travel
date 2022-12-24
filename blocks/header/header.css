@@ -9,6 +9,13 @@
   margin-left: 48px;
   margin-right: 48px;
 }
+@media (max-width: 768px) {
+  .header {    
+    max-width: 720px;
+    margin-left: 24px;
+    margin-right: 24px;
+  } 
+}   
 @media (max-width: 320px) {
   .header {    
     max-width: 288px;

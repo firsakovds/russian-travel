@@ -1,14 +1,16 @@
 .cover {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   position: relative;  
   max-width: 1184px;
   margin-top: 92px;
-  background-image: url(/images/cover__background.png);
+  background-image: url(/images/cover__background.png);  
   background-size: cover;
-  background-position: center; 
+  background-position: center;   
 }
 @media (max-width: 1024px) {
-  .cover {
+  .cover {    
     max-width: 1024px;  
    }
 }

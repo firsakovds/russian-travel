@@ -1,27 +1,12 @@
 .place__website {
+  grid-area: website;
   display: flex;
-  max-width: 456px;  
   flex-direction: column;
-  order: 1;
-  padding-left: 40px;
-  align-self: flex-end;  
-}
-@media (max-width: 1024px) {
-  .place__website {
-    max-width: 456px;
-    padding-left: 32px;
-  }
-}
-@media (max-width: 768px) {
-  .place__website {
-    max-width: 352px;    
-    padding-left: 28px;
-  }
+  justify-content: flex-end;  
 }
 @media (max-width: 320px) {
   .place__website {
-    margin: 32px 16px 0;
-   max-width: 288px;
-   padding-left: 0;    
+    margin-left: 16px;
+    margin-right: 16px;    
   }
 }
