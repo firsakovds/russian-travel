@@ -1,14 +1,14 @@
-.place__paragraphs {  
-  grid-area: paragraphs;  
+.place__paragraphs {
+  grid-area: paragraphs;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
-  color: #FFFFFF; 
+  color: #FFFFFF;
 }
 @media (max-width: 768px) {
   .place__paragraphs {
     font-size: 16px;
-    line-height: 163%;        
+    line-height: 163%;
   }
 }

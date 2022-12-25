@@ -1,13 +1,13 @@
-.lead__image {  
-  padding-top: 64px;  
+.lead__image {
+  padding-top: 64px;
 }
 @media (max-width: 1024px) {
   .lead__image {
-    padding-top: 56px;    
+    padding-top: 56px;
   }
 }
 @media (max-width: 320px) {
-  .lead__image {  
+  .lead__image {
     padding-top: 40px;
   }
 }

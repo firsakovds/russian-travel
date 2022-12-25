@@ -1,10 +1,10 @@
 .footer__link {
   width: 50px;
-  height: 18px;  
+  height: 18px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 18px;  
+  line-height: 18px;
   color: #FFFFFF;
   margin-right: 18px;
   text-decoration: none;
@@ -16,6 +16,6 @@
   .footer__link {
     margin-bottom: 32px;
     font-size: 24px;
-    line-height: 24px;  
+    line-height: 24px;
   }
 }

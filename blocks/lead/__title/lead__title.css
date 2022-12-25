@@ -1,15 +1,15 @@
-.lead__title {  
+.lead__title {
   display: flex;
   margin: 0 auto;
   margin-top: 56px;
-  max-width: 720px;  
+  max-width: 720px;
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
   text-align: center;
   justify-content: center;
-  color: #FFFFFF;  
+  color: #FFFFFF;
 }
 @media (max-width: 1024px) {
   .lead__title {
@@ -27,6 +27,6 @@
     max-width: 288px;
     font-size: 40px;
     line-height: 44px;
-    margin-top: 48px;   
+    margin-top: 48px;
   }
 }
