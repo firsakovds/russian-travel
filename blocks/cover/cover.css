@@ -5,7 +5,7 @@
   position: relative;  
   max-width: 1184px;
   margin-top: 92px;
-  background-image: url(/images/cover__background.png);  
+  background-image: url(../../images/cover__background.png);  
   background-size: cover;
   background-position: center;   
 }
