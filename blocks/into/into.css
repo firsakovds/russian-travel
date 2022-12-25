@@ -1,6 +1,6 @@
 .into {
-  margin: 0;  
-  max-width: 690px;  
+  margin: 0;
+  max-width: 690px;
   margin-top: 92px;
   margin-left: 148px;
 }
@@ -19,7 +19,7 @@
 @media (max-width: 320px) {
   .into {
     margin: 0 auto;
-    max-width: 288px;  
-    margin-top: 64px;    
+    max-width: 288px;
+    margin-top: 64px;
   }
 }
