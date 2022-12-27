@@ -1,5 +1,5 @@
 .header__lang-link {
-  text-decoration: none;
+  text-decoration: none;  
   margin-right: 18px;
   color: #FFFFFF;
   font-weight: 400;
@@ -8,10 +8,7 @@
   line-height: 117%;
 }
 .header__lang-link:hover {
-  opacity: 0.3;
-}
-.header__lang-link:nth-child(1) {
-  text-decoration-line: underline;
+  opacity: 0.8;
 }
 .header__lang-link:nth-child(2) {
   margin-right: 0;

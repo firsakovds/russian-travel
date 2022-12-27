@@ -1,6 +1,6 @@
 .footer__copyright {
-  width: 186px;
-  height: 16px;
+  margin: 0;
+  max-width: 186px;  
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -10,8 +10,7 @@
   text-decoration: none;
 }
 @media (max-width: 320px) {
-  .footer__copyright {
-    font-size: 14px;
+  .footer__copyright {    
     line-height: 14px;
     text-align: left;
     margin-top: 16px;
