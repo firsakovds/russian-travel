@@ -2,8 +2,8 @@
   display: grid;
   margin: 0;
   padding-top: 80px;
+  grid-template-columns: auto 1fr;
   grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr;
   grid-template-areas:
   "title website"
   "image paragraphs";
@@ -17,10 +17,10 @@
 @media (max-width: 768px) {
   .place {
     padding-top: 73px;
-    gap: 6.25% 3.65%;
+    gap: 48px 28px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 410px) {
   .place {
     padding-top: 50px;
     grid-template-columns: 1fr;
